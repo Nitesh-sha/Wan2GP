@@ -1,4 +1,7 @@
-import os
+conda create -n multitalk python=3.10
+conda activate multitalk
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+pip install -U xformers==0.0.28 --index-url https://download.pytorch.org/whl/cu121import os
 import time
 import sys
 import threading
